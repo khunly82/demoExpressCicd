@@ -44,5 +44,5 @@ jobs:
                   host: khunly.be
                   username: debian
                   key: ${{ secrets.KEY }}
-                  script: docker run -d -e secret=${{ secrets.SECRET }} -p 3000:3000 khunly1982/test
+                  script: docker run -d -e secret=${{ secrets.SECRET }} -p 3000:3000 khunly1982/test:latest
 

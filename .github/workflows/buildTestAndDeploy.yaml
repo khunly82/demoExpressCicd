@@ -17,7 +17,7 @@ jobs:
             
             - name: Test
               id: Test
-              run: npm run test
+              run: npm run test-ci
 
             - name: Login
               if: steps.Test.outcome == 'success'

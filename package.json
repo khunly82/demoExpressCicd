@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node --env-file=.env .",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "test-ci": "node --experimental-vm-modules node_modules/jest/bin/jest.js --ci --runInBand"
+    "test-ci": "node --experimental-vm-modules node_modules/jest/bin/jest.js --ci --runInBand --forceExit"
   },
   "dependencies": {
     "express": "^5.1.0",

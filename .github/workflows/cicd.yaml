@@ -1,0 +1,10 @@
+on:
+    workflow_dispatch:
+
+jobs:
+    job1:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "step 1"
+              run: "echo 42"
+    
